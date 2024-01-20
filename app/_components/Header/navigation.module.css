@@ -1,0 +1,16 @@
+.navigaiton {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    width: 415px;
+    height: 100vh;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #000 0%, #000 29.17%, rgba(0, 0, 0, 0.00) 100%);
+    padding: 240px 0 0 10px;
+    transform: translateX(-500px);
+    transition: all .4s;
+}
+
+.navigaiton.active {
+    transform: translateX(0px);
+}

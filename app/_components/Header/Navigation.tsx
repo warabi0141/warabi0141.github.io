@@ -1,4 +1,6 @@
 import { NavItem } from "./NavItem";
+import styles from "./navigation.module.css"
+
 type Props = {
     isOpen: boolean;
     id: string
@@ -6,7 +8,7 @@ type Props = {
 
 export const Navigation = ({ isOpen, id }: Props) => {
     return (
-        <ul id={id} aria-hidden={!isOpen} className="">
+        <ul id={id} className={styles.navigaiton + " " + (isOpen ? styles.active : "")}>
             <li>
                 <NavItem itemName="profile" itemNumber={1}></NavItem>
             </li>
