@@ -6,13 +6,14 @@ import { ToggleButton } from './ToggleButton';
 
 export const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
+
     const toggleFunction = () => {
         setIsOpen((prevState) => !prevState);
     };
     return (
-        <header>
+        <nav>
             <ToggleButton isOpen={isOpen} onClick={toggleFunction}></ToggleButton>
             <Navigation id="navigation" isOpen={isOpen}></Navigation>
-        </header>
+        </nav>
     );
 }
