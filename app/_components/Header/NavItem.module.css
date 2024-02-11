@@ -13,6 +13,7 @@
     position: relative;
     padding: 0 0 0 30px;
     border-bottom: solid 2px #3b3b3b;
+    z-index: 10;
 }
 
 .navitems::before {

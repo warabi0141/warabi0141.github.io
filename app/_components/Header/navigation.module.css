@@ -1,7 +1,7 @@
 .navigaiton {
     position: absolute;
     top: 0px;
-    z-index: -1;
+    z-index: 5;
     width: 415px;
     height: 100vh;
     flex-shrink: 0;
