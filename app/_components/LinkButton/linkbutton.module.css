@@ -1,0 +1,15 @@
+.icon {
+    height: 90%;
+    aspect-ratio: 1;
+}
+
+.linkbuton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.linkbuton:hover {
+
+}
