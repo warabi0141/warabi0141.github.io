@@ -21,6 +21,14 @@ const Page = () => {
                     <li>Qiskit, Q#, Pennylane</li>
                 </ul>
                 <br/>
+                <p>作ったもの</p>
+                <p>Works</p>
+                <ul>
+                    <li><a href="https://koudaisai.jp/">工大祭公式サイト</a></li>
+                    <li><a href="https://github.com/hackathon-22-spring-14/hackathon-22-spring-14-frontend">StanQ(Slack用のリアクションスタンプを作成できるサービス)</a></li>
+                    <li>このサイト</li>
+                </ul>
+                <br/>
                 <p>興味がある分野</p>
                 <p>Areas of interest</p>
                 <ul>

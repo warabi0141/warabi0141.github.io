@@ -36,3 +36,7 @@
     list-style: square inside;
     margin: 0.5rem;
 }
+
+.maintext>ul>li>a {
+    text-decoration: underline;
+}
