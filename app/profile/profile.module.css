@@ -1,4 +1,5 @@
 .title {
+    pointer-events: none;
     position: absolute;
     top: 5rem;
     left: 50vw;
