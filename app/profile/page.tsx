@@ -18,6 +18,7 @@ const Page = () => {
                 <br />
                 <p>数理計算科学系 B2</p>
                 <p>Department of Mathematical and Computing Science B2</p>
+                <br />
             </article>
         </div>
     </>

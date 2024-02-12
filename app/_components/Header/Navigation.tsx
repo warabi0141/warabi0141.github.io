@@ -16,7 +16,7 @@ export const Navigation = ({ isOpen, id }: Props) => {
                 <NavItem itemName="links" itemNumber={2}></NavItem>
             </li>
             <li>
-                <NavItem itemName="interest" itemNumber={3}></NavItem>
+                <NavItem itemName="skill" itemNumber={3}></NavItem>
             </li>
             <li>
                 <NavItem itemName="blog" itemNumber={4}></NavItem>
