@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { generateSidebar } from 'vitepress-sidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -17,51 +18,55 @@ export default defineConfig({
     sidebar: {
       '/quantum/': [
         {
-          text: '量子コンピュータ',
-          items: [
-          ]
-        },
-        {
-          text: '量子情報',
-          items: [
-          ]
+          text: "量子",
+          items: generateSidebar({
+            documentRootPath: '.',
+            basePath: '/quantum',
+            scanStartPath: '/quantum',
+            useTitleFromFileHeading: true,
+            useFolderTitleFromIndexFile: true,
+            useFolderLinkFromIndexFile: true,
+          })
         }
       ],
       '/math/': [
         {
           text: '数学',
-          items: [
-          ]
+          items: generateSidebar({
+            documentRootPath: '.',
+            basePath: '/math',
+            scanStartPath: '/math',
+            useTitleFromFileHeading: true,
+            useFolderTitleFromIndexFile: true,
+            useFolderLinkFromIndexFile: true,
+          })
         }
       ],
       '/cs/': [
         {
           text: 'コンピュータサイエンス',
           link: '/cs',
-          items: [
-              { 
-                text: '数理最適化',
-                link: '/cs/optimization/',
-                items: [
-                  {
-                    text: '線形計画法',
-                    link: '/cs/optimization/linear/',
-                    items: [
-                      {text: '線形計画法', link: '/cs/optimization/linear/linearProgramming'},
-                      {text: 'シンプレックス法', link: '/cs/optimization/linear/simplexMethod'},
-                      {text: '双対問題', link: '/cs/optimization/linear/dualProblem'},
-                    ]
-                  }
-                ]
-              }
-          ]
+          items: generateSidebar({
+            documentRootPath: '.',
+            basePath: '/cs',
+            scanStartPath: '/cs',
+            useTitleFromFileHeading: true,
+            useFolderTitleFromIndexFile: true,
+            useFolderLinkFromIndexFile: true,
+          })
         }
       ],
       '/physics/': [
         {
           text: '物理学',
-          items: [
-          ]
+          items: generateSidebar({
+            documentRootPath: '.',
+            basePath: '/physics',
+            scanStartPath: '/physics',
+            useTitleFromFileHeading: true,
+            useFolderTitleFromIndexFile: true,
+            useFolderLinkFromIndexFile: true,
+          })
         }
       ]
     },
