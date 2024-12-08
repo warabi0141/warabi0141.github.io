@@ -38,6 +38,19 @@ export default defineConfig({
         {
           text: 'コンピュータサイエンス',
           items: [
+              { 
+                text: '数理最適化',
+                items: [
+                  {
+                    text: '線形計画法',
+                    items: [
+                      {text: '線形計画法', link: '/cs/optimization/linear/linearProgramming'},
+                      {text: 'シンプレックス法', link: '/cs/optimization/linear/simplexMethod'},
+                      {text: '双対問題', link: '/cs/optimization/linear/dualProblem'},
+                    ]
+                  }
+                ]
+              }
           ]
         }
       ],
@@ -66,5 +79,8 @@ export default defineConfig({
         timeStyle: 'medium'
       }
     },
+  },
+  markdown: {
+    math: true
   }
 })
