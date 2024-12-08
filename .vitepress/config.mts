@@ -71,7 +71,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/warabi0141' },
+      { icon: 'github', link: 'https://github.com/warabi0141/warabi0141.github.io' },
       { icon: 'x', link: 'https://x.com/inu__warabi' }
     ],
 
