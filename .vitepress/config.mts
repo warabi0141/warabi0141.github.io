@@ -37,12 +37,15 @@ export default defineConfig({
       '/cs/': [
         {
           text: 'コンピュータサイエンス',
+          link: '/cs',
           items: [
               { 
                 text: '数理最適化',
+                link: '/cs/optimization',
                 items: [
                   {
                     text: '線形計画法',
+                    link: '/cs/optimization/linear/linearProgramming',
                     items: [
                       {text: '線形計画法', link: '/cs/optimization/linear/linearProgramming'},
                       {text: 'シンプレックス法', link: '/cs/optimization/linear/simplexMethod'},
