@@ -59,8 +59,6 @@ export default defineConfig({
       { icon: 'x', link: 'https://x.com/inu__warabi' }
     ],
 
-    logo: '/logo.png',
-
     lastUpdated: {
       text: 'Updated at',
       formatOptions: {
