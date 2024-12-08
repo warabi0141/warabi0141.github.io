@@ -19,15 +19,11 @@ export default defineConfig({
         {
           text: '量子コンピュータ',
           items: [
-            { text: '量子コンピュータの基礎', link: '/quantum/quantum-computer' },
-            { text: '量子アルゴリズム', link: '/quantum/quantum-algorithm' }
           ]
         },
         {
           text: '量子情報',
           items: [
-            { text: '量子ビット', link: '/quantum/qubit' },
-            { text: '量子エンタングルメント', link: '/quantum/entanglement' }
           ]
         }
       ],
@@ -35,8 +31,6 @@ export default defineConfig({
         {
           text: '数学',
           items: [
-            { text: '微分積分', link: '/math/differential-calculus' },
-            { text: '線形代数', link: '/math/linear-algebra' }
           ]
         }
       ],
@@ -44,8 +38,6 @@ export default defineConfig({
         {
           text: 'コンピュータサイエンス',
           items: [
-            { text: 'アルゴリズム', link: '/cs/algorithm' },
-            { text: 'データ構造', link: '/cs/data-structure' }
           ]
         }
       ],
@@ -53,8 +45,6 @@ export default defineConfig({
         {
           text: '物理学',
           items: [
-            { text: '古典力学', link: '/physics/classical-mechanics' },
-            { text: '量子力学', link: '/physics/quantum-mechanics' }
           ]
         }
       ]
