@@ -6,7 +6,7 @@ export default defineConfig({
   title: "わらびのメモ帳",
   description: "備忘録です",
   head: [
-    ['link', { rel: 'icon', href: '/figure/favicon.ico' }]
+    ['link', { rel: 'icon', href: 'favicon.ico' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
