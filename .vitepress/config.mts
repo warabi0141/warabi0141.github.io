@@ -22,6 +22,7 @@ export default defineConfig({
       '/quantum/': [
         {
           text: "量子",
+          link: "/quantum",
           items: generateSidebar({
             documentRootPath: '.',
             basePath: '/quantum',
@@ -35,6 +36,7 @@ export default defineConfig({
       '/math/': [
         {
           text: '数学',
+          link: '/math',
           items: generateSidebar({
             documentRootPath: '.',
             basePath: '/math',
@@ -62,6 +64,7 @@ export default defineConfig({
       '/physics/': [
         {
           text: '物理学',
+          link: '/physics',
           items: generateSidebar({
             documentRootPath: '.',
             basePath: '/physics',
