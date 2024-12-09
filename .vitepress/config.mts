@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar';
+import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -90,5 +91,10 @@ export default defineConfig({
   },
   markdown: {
     math: true
-  }
+  },
+  plugins: [
+    buildEndGenerateOpenGraphImages({
+      baseUrl: 'https://warabi0141.github.io',
+    })
+  ]
 })
