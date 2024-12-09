@@ -87,10 +87,10 @@ export default defineConfig({
     ],
 
     lastUpdated: {
-      text: 'Updated at',
+      text: '最終更新日',
       formatOptions: {
         dateStyle: 'full',
-        timeStyle: 'medium'
+        timeStyle: 'short'
       }
     },
   },
