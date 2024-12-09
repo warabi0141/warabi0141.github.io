@@ -1,11 +1,13 @@
 import { defineConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar';
-import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "わらびのメモ帳",
   description: "備忘録です",
+  head: [
+    ['link', { rel: 'icon', href: '/figure/favicon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -92,9 +94,4 @@ export default defineConfig({
   markdown: {
     math: true
   },
-  plugins: [
-    buildEndGenerateOpenGraphImages({
-      baseUrl: 'https://warabi0141.github.io',
-    })
-  ]
 })
