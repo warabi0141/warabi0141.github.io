@@ -5,7 +5,7 @@ next: false
 
 # スタビライザ
 
-定義の仕方がいくつかあるが、まずは[量子誤り訂正符号](./quantum-error-correction-code.md)から定義する。
+定義の仕方がいくつかあるが、まずは[量子誤り訂正符号](./quantum-error-correction-code.md)を使って定義する。
 
 QECC $T \subseteq \mathcal H_{2^n}$に対して、
 $$\text S(T) = \{M \in P_n \mid M\ket{\psi} = \ket{\psi} \;(\forall \ket{\psi} \in T)\}$$
