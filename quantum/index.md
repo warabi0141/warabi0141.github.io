@@ -6,6 +6,7 @@
 
 - 量子コンピュータ
 - 量子計算理論
-- 量子情報
+- [量子情報理論](./quantum-information/index.md)
+- [量子誤り訂正](./quantum-error-correction/index.md)
 
-などです。
+などを予定してます。
