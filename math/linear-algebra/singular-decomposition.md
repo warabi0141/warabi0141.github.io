@@ -15,7 +15,7 @@ $$\Lambda = \begin{pmatrix}\lambda_1 & & \\ & \ddots &  \\ & & \lambda_r\end{pma
 で定義される$r\times r$行列である。$K$と$L^\top$はそれぞれ
 $$K^\top K=I_r$$
 $$L^\top L=I_r$$
-を満たすような列直交行列である。ちなみに、$X$は$n\times p$行列なので、$K$は$n\times r$行列であり、$L^\top$は$r\times p$行列である。このような$L,K$は[[アイソメトリ]]と呼ばれる。
+を満たすような列直交行列である。ちなみに、$X$は$n\times p$行列なので、$K$は$n\times r$行列であり、$L^\top$は$r\times p$行列である。このような$L,K$はアイソメトリと呼ばれる。
 
 **$\Lambda$は一意に定まり**、その成分$\lambda_i$を**特異値**という。特異値は大きいものから順番に並んでいることに注意する。
 
