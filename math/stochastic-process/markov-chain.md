@@ -18,7 +18,7 @@ $$P(X_{n+1} \in A \mid X_m , m\le n) = p(X_n, A)$$
 
 ### 性質の違い
 
-- [斉時](./time-homogenius.md)(せいじ)
+- [斉時](./time-homogeneous.md)(せいじ)
   - どの時刻でも分布が変わらない
 - [既約](./irreducible.md)
   - 状態空間がただ1つの連結クラスからなる
